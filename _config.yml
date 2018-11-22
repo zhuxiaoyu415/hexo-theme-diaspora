@@ -1,8 +1,8 @@
 # 头部菜单，title: link
 menu:
   Whoami: /whoami/whoami.html
-  Github: https://github.com/Fechin
-  Twitter: https://twitter.com/FechinLi
+  Github: https://github.com/zhuxiaoyu415
+  FaceBook: https://www.facebook.com/profile.php?id=100006061269113
 
 # 是否显示目录
 TOC: false
@@ -26,18 +26,19 @@ scrollbar: true
 
 # Gitalk 评论插件（https://github.com/gitalk/gitalk）
 gitalk:
+    enable: true #是否开启
     # 是否自动展开评论框
     autoExpand: false
     # 应用编号
-    clientID: ''
+    clientID: '625481e7a5964aa7bbf3'
     # 应用秘钥
-    clientSecret: ''
+    clientSecret: '1e7d3d8defbd81a7f44172890b2efa47a9aa4b2f'
     # issue仓库名
-    repo: ''
+    repo: 'blog_comments'
     # Github名
-    owner: ''
+    owner: 'zhuxiaoyu415'
     # Github名
-    admin: ['']
+    admin: ['zhuxiaoyu415']
     # Ensure uniqueness and length less than 50
     id: location.pathname
     # Facebook-like distraction free mode
