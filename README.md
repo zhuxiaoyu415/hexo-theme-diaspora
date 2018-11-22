@@ -1,7 +1,8 @@
 # Hexo-theme-diaspora
 
 
-**[在线预览 | PREVIEW ](http://fech.in)**
+- **[在线预览 | sarahzhu ](http://sarahzhu.top)**
+- **[在线预览 | fech ](http://fech.in)**
 
 一款基于WP移植的Hexo主题，适合喜欢摄影，影评，乐评和玩弄文字的你，干净，清新； 响应式，Ajax，更多好玩的等你来发现。 
 
@@ -13,7 +14,7 @@
 ### 安装主题
 
 ``` bash
-$ git clone https://github.com/Fechin/hexo-theme-diaspora.git diaspora
+$ git clone https://github.com/zhuxiaoyu415/hexo-theme-diaspora.git
 ```
 
 
@@ -43,11 +44,11 @@ git pull
 ``` markdown
 ---
 title: My awesome title
-date: 2016-10-12 18:38:45
+date: 2018-11-22 18:38:45
 tags: 
 - 标签
 - 标签
-mp3: http://domain.com/awesome.mp3
+mp3: http://music.163.com/song/media/outer/url?id=1296583189.mp3
 cover: http://domain.com/awesome.jpg
 ---
 ```
@@ -56,9 +57,9 @@ cover: http://domain.com/awesome.jpg
 ```yml
 # 头部菜单，title: link
 menu:
-  Whoami: /whoami
-  Github: https://github.com/Fechin
-  Twitter: https://twitter.com/FechinLi
+  Whoami: /whoami/whoami.html
+  Github: https://github.com/zhuxiaoyu415
+  FaceBook: https://www.facebook.com/profile.php?id=100006061269113
 
 # 是否显示目录
 TOC: false
@@ -68,8 +69,8 @@ autoplay: false
 
 # 默认音乐（随机播放）
 mp3: 
-    - http://link.hhtjim.com/163/425570952.mp3
-    - http://link.hhtjim.com/163/425570952.mp3
+  - http://music.163.com/song/media/outer/url?id=1296583188.mp3
+  - http://music.163.com/song/media/outer/url?id=1296583189.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
 welcome_cover: # /img/welcome-cover.jpg
@@ -97,7 +98,7 @@ gitalk:
     distractionFreeMode: false
 
 # 网站关键字
-keywords: Fechin
+keywords: Sarah
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
 google_analytics: 

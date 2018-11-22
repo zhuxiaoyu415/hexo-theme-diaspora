@@ -26,6 +26,7 @@ scrollbar: true
 
 # Gitalk 评论插件（https://github.com/gitalk/gitalk）
 gitalk:
+    enable: true #是否开启
     # 是否自动展开评论框
     autoExpand: false
     # 应用编号
