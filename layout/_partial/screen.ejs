@@ -19,7 +19,8 @@
     </div>
     <% if ( first ) { %>
     <div id="post0">
-        <p><%- first.date.locale("zh-cn").format("MMMM DD, YYYY") %></p>
+        <p><%- first.date.locale("zh-cn").format("MMMM DD, YYYY") %> |
+        <span id="busuanzi_container_site_pv">访问量，<span id="busuanzi_value_site_pv" ></span></span></p>
         <h2><%- link_to(first.path, first.title || config.title, {class: "posttitle"}) %></h2>
         <p class="summary"><%- truncate(strip_html(first.content), {length: 60, omission: '...'}) %></p>
     </div>
